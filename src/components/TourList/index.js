@@ -12,7 +12,7 @@ export default class TourList extends Component {
   render() {
     const {tours} = this.state
     return (
-      <section className="tourList">
+      <section className="tourlist">
         {tours.map(tour => (
             <Tour key={tour.id} tour={tour} removeTour={this.removeTour}/>
 
